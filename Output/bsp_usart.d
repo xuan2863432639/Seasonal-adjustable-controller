@@ -21,6 +21,7 @@
 ..\..\output\bsp_usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\bsp_usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\..\output\bsp_usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\bsp_usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 ..\..\output\bsp_usart.o: ..\..\User\usart\bsp_usart.h
 ..\..\output\bsp_usart.o: ..\..\User\SysTick\bsp_SysTick.h
 ..\..\output\bsp_usart.o: ..\..\User\SYSTEM\sys\sys.h

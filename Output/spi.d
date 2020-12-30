@@ -21,6 +21,7 @@
 ..\..\output\spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\..\output\spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 ..\..\output\spi.o: ..\..\User\usart\bsp_usart.h
 ..\..\output\spi.o: ..\..\User\sys_config.h
 ..\..\output\spi.o: ..\..\User\SysTick\bsp_SysTick.h

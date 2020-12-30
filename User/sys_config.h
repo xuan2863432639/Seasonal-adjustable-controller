@@ -27,6 +27,7 @@
 #include <stdint.h>
 #include <stdbool.h> 
 #include <string.h>
+#include <math.h>
 
 //外设头文件
 #include "bsp_usart.h"

@@ -23,6 +23,7 @@
 ..\..\output\radio.o: ..\..\User\stm32f10x_it.h
 ..\..\output\radio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\radio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\radio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 ..\..\output\radio.o: ..\..\User\usart\bsp_usart.h
 ..\..\output\radio.o: ..\..\User\sys_config.h
 ..\..\output\radio.o: ..\..\User\SysTick\bsp_SysTick.h

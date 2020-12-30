@@ -23,6 +23,7 @@
 ..\..\output\sx1272.o: ..\..\User\stm32f10x_it.h
 ..\..\output\sx1272.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\sx1272.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\sx1272.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 ..\..\output\sx1272.o: ..\..\User\usart\bsp_usart.h
 ..\..\output\sx1272.o: ..\..\User\sys_config.h
 ..\..\output\sx1272.o: ..\..\User\SysTick\bsp_SysTick.h

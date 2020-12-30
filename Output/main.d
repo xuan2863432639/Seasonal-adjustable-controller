@@ -20,6 +20,7 @@
 ..\..\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\..\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 ..\..\output\main.o: ..\..\User\usart\bsp_usart.h
 ..\..\output\main.o: ..\..\User\sys_config.h
 ..\..\output\main.o: ..\..\User\SysTick\bsp_SysTick.h

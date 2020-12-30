@@ -37,7 +37,7 @@ uint8_t i=0;                        //清空Buffer数组时用的下标
 float pitch_PV=0,roll=0,yaw=0; 		//欧拉角     俯仰角（Pitch）、横滚角（Roll）和偏航角（Yaw）
 float pitch_SV=0;                   //接收到的俯仰角（pitch）
 float err=0;                        //err=pitch_PV-pitch_SV    err=实测-接收
-
+float abs_err=0;                    //误差的绝对值
 float adc_value=0;                   //ADC 采样值
 float adc_voltage=0;                 //ADC 电压值
 float V_CAP=0;                       //电容电压
@@ -125,6 +125,7 @@ int main(void)
         }
 
         err=pitch_PV-pitch_SV;                  //err=实测-接收
+		abs_err=fabs(err);
         if(auto_mode==true)                     //自动模式下的处理
         {
             if(err>1)
@@ -152,7 +153,7 @@ int main(void)
                 backward_to_forward=false;
                 forward_to_backward=true;
 
-            } else
+            } else if(abs_err<0.2)
             {
                 auto_up=false;
                 auto_down=false;

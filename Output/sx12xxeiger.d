@@ -21,6 +21,7 @@
 ..\..\output\sx12xxeiger.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\sx12xxeiger.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ..\..\output\sx12xxeiger.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\sx12xxeiger.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 ..\..\output\sx12xxeiger.o: ..\..\User\usart\bsp_usart.h
 ..\..\output\sx12xxeiger.o: ..\..\User\sys_config.h
 ..\..\output\sx12xxeiger.o: ..\..\User\SysTick\bsp_SysTick.h

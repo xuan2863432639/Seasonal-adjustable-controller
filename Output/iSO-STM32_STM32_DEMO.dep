@@ -402,8 +402,8 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
-F (..\..\User\main.c)(0x5FE09795)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\usart -I ..\..\User\SysTick -I ..\..\User\SX1278 -I ..\..\User\SX1278\radio -I ..\..\User\SX1278\platform\bleeper -I ..\..\User\SX1278\platform\sx1200dvk -I ..\..\User\SX1278\platform\sx1243ska -I ..\..\User\SX1278\platform\sx12xxEiger -I ..\..\User\SX1278\platform -I ..\..\User\MPU6050 -I ..\..\User\MPU6050\eMPL -I ..\..\User\SYSTEM\delay -I ..\..\User\SYSTEM\sys -I ..\..\User\SYSTEM\usart -I ..\..\User\ADC -I ..\..\User\motor -I ..\..\User\KEY -I ..\..\User\WDG-IC:\Users\28634\Desktop\季节可调-lora-V1.05（适配新板子）\Project\RVMDK（uv4）\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DPLATFORM="SX12xxEiger"-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
-I (..\..\User\sys_config.h)(0x5FE06487)
+F (..\..\User\main.c)(0x5FE2B30F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\usart -I ..\..\User\SysTick -I ..\..\User\SX1278 -I ..\..\User\SX1278\radio -I ..\..\User\SX1278\platform\bleeper -I ..\..\User\SX1278\platform\sx1200dvk -I ..\..\User\SX1278\platform\sx1243ska -I ..\..\User\SX1278\platform\sx12xxEiger -I ..\..\User\SX1278\platform -I ..\..\User\MPU6050 -I ..\..\User\MPU6050\eMPL -I ..\..\User\SYSTEM\delay -I ..\..\User\SYSTEM\sys -I ..\..\User\SYSTEM\usart -I ..\..\User\ADC -I ..\..\User\motor -I ..\..\User\KEY -I ..\..\User\WDG-IC:\Users\28634\Desktop\季节可调-lora-V1.05（适配新板子）\Project\RVMDK（uv4）\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DPLATFORM="SX12xxEiger"-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
+I (..\..\User\sys_config.h)(0x5FE2B1E6)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -423,6 +423,7 @@ I (..\..\User\stm32f10x_it.h)(0x55680402)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5FBCFB08)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (..\..\User\usart\bsp_usart.h)(0x5567CEF1)
 I (..\..\User\SysTick\bsp_SysTick.h)(0x52568D54)
 I (..\..\User\SYSTEM\sys\sys.h)(0x550F951B)
@@ -462,7 +463,7 @@ I (..\..\User\SX1278\platform\sx12xxEiger\sx12xxEiger.h)(0x51CC4328)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
 F (..\..\User\stm32f10x_it.h)(0x55680402)()
 F (..\..\User\sys_config.c)(0x5FD2D840)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\usart -I ..\..\User\SysTick -I ..\..\User\SX1278 -I ..\..\User\SX1278\radio -I ..\..\User\SX1278\platform\bleeper -I ..\..\User\SX1278\platform\sx1200dvk -I ..\..\User\SX1278\platform\sx1243ska -I ..\..\User\SX1278\platform\sx12xxEiger -I ..\..\User\SX1278\platform -I ..\..\User\MPU6050 -I ..\..\User\MPU6050\eMPL -I ..\..\User\SYSTEM\delay -I ..\..\User\SYSTEM\sys -I ..\..\User\SYSTEM\usart -I ..\..\User\ADC -I ..\..\User\motor -I ..\..\User\KEY -I ..\..\User\WDG-IC:\Users\28634\Desktop\季节可调-lora-V1.05（适配新板子）\Project\RVMDK（uv4）\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DPLATFORM="SX12xxEiger"-o ..\..\output\sys_config.o --omf_browse ..\..\output\sys_config.crf --depend ..\..\output\sys_config.d)
-I (..\..\User\sys_config.h)(0x5FE06487)
+I (..\..\User\sys_config.h)(0x5FE2B1E6)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -482,6 +483,7 @@ I (..\..\User\stm32f10x_it.h)(0x55680402)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5FBCFB08)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (..\..\User\usart\bsp_usart.h)(0x5567CEF1)
 I (..\..\User\SysTick\bsp_SysTick.h)(0x52568D54)
 I (..\..\User\SYSTEM\sys\sys.h)(0x550F951B)
@@ -517,7 +519,7 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
 F (..\..\User\usart\bsp_usart.c)(0x5F54CE5F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\usart -I ..\..\User\SysTick -I ..\..\User\SX1278 -I ..\..\User\SX1278\radio -I ..\..\User\SX1278\platform\bleeper -I ..\..\User\SX1278\platform\sx1200dvk -I ..\..\User\SX1278\platform\sx1243ska -I ..\..\User\SX1278\platform\sx12xxEiger -I ..\..\User\SX1278\platform -I ..\..\User\MPU6050 -I ..\..\User\MPU6050\eMPL -I ..\..\User\SYSTEM\delay -I ..\..\User\SYSTEM\sys -I ..\..\User\SYSTEM\usart -I ..\..\User\ADC -I ..\..\User\motor -I ..\..\User\KEY -I ..\..\User\WDG-IC:\Users\28634\Desktop\季节可调-lora-V1.05（适配新板子）\Project\RVMDK（uv4）\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DPLATFORM="SX12xxEiger"-o ..\..\output\bsp_usart.o --omf_browse ..\..\output\bsp_usart.crf --depend ..\..\output\bsp_usart.d)
 I (..\..\User\usart\bsp_usart.h)(0x5567CEF1)
-I (..\..\User\sys_config.h)(0x5FE06487)
+I (..\..\User\sys_config.h)(0x5FE2B1E6)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -537,6 +539,7 @@ I (..\..\User\stm32f10x_it.h)(0x55680402)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5FBCFB08)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (..\..\User\SysTick\bsp_SysTick.h)(0x52568D54)
 I (..\..\User\SYSTEM\sys\sys.h)(0x550F951B)
 I (..\..\User\SYSTEM\delay\delay.h)(0x555AC82B)
@@ -572,10 +575,11 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
 I (..\..\User\SX1278\radio\radio.h)(0x5567F3C0)
-I (..\..\User\sys_config.h)(0x5FE06487)
+I (..\..\User\sys_config.h)(0x5FE2B1E6)
 I (..\..\User\stm32f10x_it.h)(0x55680402)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5FBCFB08)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (..\..\User\usart\bsp_usart.h)(0x5567CEF1)
 I (..\..\User\SysTick\bsp_SysTick.h)(0x52568D54)
 I (..\..\User\SYSTEM\sys\sys.h)(0x550F951B)
@@ -651,10 +655,11 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
 I (..\..\User\SX1278\radio\radio.h)(0x5567F3C0)
-I (..\..\User\sys_config.h)(0x5FE06487)
+I (..\..\User\sys_config.h)(0x5FE2B1E6)
 I (..\..\User\stm32f10x_it.h)(0x55680402)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5FBCFB08)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (..\..\User\usart\bsp_usart.h)(0x5567CEF1)
 I (..\..\User\SysTick\bsp_SysTick.h)(0x52568D54)
 I (..\..\User\SYSTEM\sys\sys.h)(0x550F951B)
@@ -768,10 +773,11 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
 I (..\..\User\SX1278\radio\radio.h)(0x5567F3C0)
-I (..\..\User\sys_config.h)(0x5FE06487)
+I (..\..\User\sys_config.h)(0x5FE2B1E6)
 I (..\..\User\stm32f10x_it.h)(0x55680402)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5FBCFB08)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (..\..\User\usart\bsp_usart.h)(0x5567CEF1)
 I (..\..\User\SysTick\bsp_SysTick.h)(0x52568D54)
 I (..\..\User\SYSTEM\sys\sys.h)(0x550F951B)
@@ -812,7 +818,7 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
 I (..\..\User\SX1278\radio\radio.h)(0x5567F3C0)
-I (..\..\User\sys_config.h)(0x5FE06487)
+I (..\..\User\sys_config.h)(0x5FE2B1E6)
 I (..\..\User\stm32f10x_it.h)(0x55680402)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5FBCFB08)
 I (..\..\User\usart\bsp_usart.h)(0x5567CEF1)
@@ -879,9 +885,10 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
 I (..\..\User\SX1278\radio\radio.h)(0x5567F3C0)
-I (..\..\User\sys_config.h)(0x5FE06487)
+I (..\..\User\sys_config.h)(0x5FE2B1E6)
 I (..\..\User\stm32f10x_it.h)(0x55680402)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5FBCFB08)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (..\..\User\usart\bsp_usart.h)(0x5567CEF1)
 I (..\..\User\SysTick\bsp_SysTick.h)(0x52568D54)
 I (..\..\User\SYSTEM\sys\sys.h)(0x550F951B)
@@ -944,7 +951,7 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
 F (..\..\User\SX1278\platform\sx12xxEiger\spi.c)(0x5F5064AB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\usart -I ..\..\User\SysTick -I ..\..\User\SX1278 -I ..\..\User\SX1278\radio -I ..\..\User\SX1278\platform\bleeper -I ..\..\User\SX1278\platform\sx1200dvk -I ..\..\User\SX1278\platform\sx1243ska -I ..\..\User\SX1278\platform\sx12xxEiger -I ..\..\User\SX1278\platform -I ..\..\User\MPU6050 -I ..\..\User\MPU6050\eMPL -I ..\..\User\SYSTEM\delay -I ..\..\User\SYSTEM\sys -I ..\..\User\SYSTEM\usart -I ..\..\User\ADC -I ..\..\User\motor -I ..\..\User\KEY -I ..\..\User\WDG-IC:\Users\28634\Desktop\季节可调-lora-V1.05（适配新板子）\Project\RVMDK（uv4）\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DPLATFORM="SX12xxEiger"-o ..\..\output\spi.o --omf_browse ..\..\output\spi.crf --depend ..\..\output\spi.d)
 I (..\..\User\SX1278\platform\sx12xxEiger\spi.h)(0x5567F2D9)
-I (..\..\User\sys_config.h)(0x5FE06487)
+I (..\..\User\sys_config.h)(0x5FE2B1E6)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -964,6 +971,7 @@ I (..\..\User\stm32f10x_it.h)(0x55680402)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5FBCFB08)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (..\..\User\usart\bsp_usart.h)(0x5567CEF1)
 I (..\..\User\SysTick\bsp_SysTick.h)(0x52568D54)
 I (..\..\User\SYSTEM\sys\sys.h)(0x550F951B)
@@ -983,7 +991,7 @@ I (..\..\User\WDG\wdg.h)(0x5051DADB)
 F (..\..\User\SX1278\platform\sx12xxEiger\sx12xxEiger.c)(0x5567FA78)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\usart -I ..\..\User\SysTick -I ..\..\User\SX1278 -I ..\..\User\SX1278\radio -I ..\..\User\SX1278\platform\bleeper -I ..\..\User\SX1278\platform\sx1200dvk -I ..\..\User\SX1278\platform\sx1243ska -I ..\..\User\SX1278\platform\sx12xxEiger -I ..\..\User\SX1278\platform -I ..\..\User\MPU6050 -I ..\..\User\MPU6050\eMPL -I ..\..\User\SYSTEM\delay -I ..\..\User\SYSTEM\sys -I ..\..\User\SYSTEM\usart -I ..\..\User\ADC -I ..\..\User\motor -I ..\..\User\KEY -I ..\..\User\WDG-IC:\Users\28634\Desktop\季节可调-lora-V1.05（适配新板子）\Project\RVMDK（uv4）\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DPLATFORM="SX12xxEiger"-o ..\..\output\sx12xxeiger.o --omf_browse ..\..\output\sx12xxeiger.crf --depend ..\..\output\sx12xxeiger.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
 I (..\..\User\SX1278\platform\sx12xxEiger\spi.h)(0x5567F2D9)
-I (..\..\User\sys_config.h)(0x5FE06487)
+I (..\..\User\sys_config.h)(0x5FE2B1E6)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
 I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
@@ -1002,6 +1010,7 @@ I (..\..\User\stm32f10x_it.h)(0x55680402)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5FBCFB08)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (..\..\User\usart\bsp_usart.h)(0x5567CEF1)
 I (..\..\User\SysTick\bsp_SysTick.h)(0x52568D54)
 I (..\..\User\SYSTEM\sys\sys.h)(0x550F951B)
@@ -1076,10 +1085,11 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
 I (..\..\User\SX1278\platform\sx12xxEiger\spi.h)(0x5567F2D9)
-I (..\..\User\sys_config.h)(0x5FE06487)
+I (..\..\User\sys_config.h)(0x5FE2B1E6)
 I (..\..\User\stm32f10x_it.h)(0x55680402)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5FBCFB08)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574E3E26)
 I (..\..\User\usart\bsp_usart.h)(0x5567CEF1)
 I (..\..\User\SysTick\bsp_SysTick.h)(0x52568D54)
 I (..\..\User\SYSTEM\sys\sys.h)(0x550F951B)
